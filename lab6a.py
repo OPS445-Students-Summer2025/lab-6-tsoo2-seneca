@@ -34,13 +34,13 @@ class Student:
 
 if __name__ == '__main__':
     # Create first student object 
-    student1 = Student('John', '013454900')
+    student1 = Student('John', '013454900') 
     student1.addGrade('uli101', 1.0)
     student1.addGrade('ops245', 2.0)
     student1.addGrade('ops445', 3.0)
 
     # Create second student object 
-    student2 = Student('Jessica', 123456) 
+    student2 = Student('Jessica', 123456) #Passed as String Format 
     student2.addGrade('ipc144', 4.0)
     student2.addGrade('cpp244', 3.5)
     student2.addGrade('cpp344', 0.0)
